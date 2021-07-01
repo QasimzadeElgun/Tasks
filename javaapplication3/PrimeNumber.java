@@ -33,7 +33,7 @@ public class PrimeNumber {
             }
             i++;
         }
-        System.out.println(sum);
+        System.out.println("The sum of the first 1000 prime numbers is "+sum);
     }
 
     static boolean primeCheck(int number) {
