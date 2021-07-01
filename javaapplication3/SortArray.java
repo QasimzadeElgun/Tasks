@@ -24,19 +24,19 @@ public class SortArray {
            //First Method
         //System.out.println(SortArray(list));
            //Second Method
-         System.out.println(SortArray2(list));
+        System.out.println(SortArray2(list));
     }
 
     //First Method
-    public static List<Integer> SortArray(List<Integer> list) {
-        List<Integer> returnElement = new ArrayList<>();
-        for (int i : list) {
-            if (!returnElement.contains(i)) {
-                returnElement.add(i);
-            }
-        }
-        return returnElement;
-    }
+//    public static List<Integer> SortArray(List<Integer> list) {
+//        List<Integer> returnElement = new ArrayList<>();
+//        for (int i : list) {
+//            if (!returnElement.contains(i)) {
+//                returnElement.add(i);
+//            }
+//        }
+//        return returnElement;
+//    }
 
     //Second Method
     public static List<Integer> SortArray2(List<Integer> list) {
